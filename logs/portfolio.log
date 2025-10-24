@@ -1,0 +1,285 @@
+2025-10-07 05:34:23,966 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e524d1ab877237d65e106e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 05:34:24,018 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e524d1ab877237d65e106e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 05:35:56,027 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e5252d8fd5341ba20c44d2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 05:35:56,032 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e5252d8fd5341ba20c44d2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 05:36:47,386 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e525604a3ba6f589a3d8ba, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 05:36:47,391 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e525604a3ba6f589a3d8ba, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 05:42:31,286 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e526b9e7ec85e51b481196, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 05:42:31,296 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e526b9e7ec85e51b481196, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 08:31:57,989 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e54e6e1e7d40710e7544ff, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 08:31:58,074 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e54e6e1e7d40710e7544ff, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 08:34:45,978 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e54f17371f00739469422c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 08:34:45,992 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e54f17371f00739469422c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 08:35:22,849 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e54f3cfecf05af90afa4c0, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-07 08:35:22,853 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e54f3cfecf05af90afa4c0, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-08 00:33:53,489 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e62fe01128e228b13d3ed2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-08 00:33:53,586 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e62fe01128e228b13d3ed2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-08 00:49:36,793 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-08 00:49:36,808 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-08 00:49:36,809 - portfolio - INFO - 🚀 Application started successfully
+2025-10-08 02:47:04,618 - portfolio - ERROR - Global error: 6 validation errors:
+  {'type': 'missing', 'loc': ('response', 0, 'short_description'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 0, 'technologies'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 0, 'category'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'short_description'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'technologies'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'category'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+Traceback (most recent call last):
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 409, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 252, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 6 validation errors:
+  {'type': 'missing', 'loc': ('response', 0, 'short_description'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 0, 'technologies'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 0, 'category'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'short_description'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'technologies'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'category'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+
+2025-10-08 02:47:19,744 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-08 02:47:19,745 - portfolio - INFO - 🛑 Application shutdown
+2025-10-08 02:47:37,435 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-08 02:47:37,436 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-08 02:47:37,437 - portfolio - INFO - 🚀 Application started successfully
+2025-10-08 02:49:44,858 - portfolio - ERROR - Global error: 6 validation errors:
+  {'type': 'missing', 'loc': ('response', 0, 'short_description'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 0, 'technologies'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 0, 'category'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'short_description'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'technologies'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'category'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+Traceback (most recent call last):
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 409, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 252, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 6 validation errors:
+  {'type': 'missing', 'loc': ('response', 0, 'short_description'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 0, 'technologies'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 0, 'category'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79a', 'title': 'Aman Portfolio', 'description': 'A full-stack portfolio using FastAPI and Vue 3', 'tech_stack': ['FastAPI', 'Vue 3', 'MongoDB', 'TailwindCSS'], 'github_link': 'https://github.com/aman/portfolio', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'short_description'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'technologies'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+  {'type': 'missing', 'loc': ('response', 1, 'category'), 'msg': 'Field required', 'input': {'_id': '68e64f16e9bd33c692afe79b', 'title': 'Incident Response System', 'description': 'Advanced cybersecurity tool for log analysis and alerting', 'tech_stack': ['Python', 'FastAPI', 'React', 'MongoDB'], 'github_link': 'https://github.com/aman/irs-system', 'featured': True}}
+
+2025-10-08 02:57:10,797 - portfolio - ERROR - Global error: 9 validation errors:
+  {'type': 'enum', 'loc': ('response', 0, 'category'), 'msg': "Input should be 'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'", 'input': 'Backend', 'ctx': {'expected': "'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'"}}
+  {'type': 'enum', 'loc': ('response', 0, 'level'), 'msg': "Input should be 'beginner', 'intermediate', 'advanced' or 'expert'", 'input': 'Expert', 'ctx': {'expected': "'beginner', 'intermediate', 'advanced' or 'expert'"}}
+  {'type': 'missing', 'loc': ('response', 0, 'proficiency'), 'msg': 'Field required', 'input': {'_id': '68e65187c707394c507aff3a', 'name': 'Python', 'level': 'Expert', 'category': 'Backend'}}
+  {'type': 'enum', 'loc': ('response', 1, 'category'), 'msg': "Input should be 'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'", 'input': 'Frontend', 'ctx': {'expected': "'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'"}}
+  {'type': 'enum', 'loc': ('response', 1, 'level'), 'msg': "Input should be 'beginner', 'intermediate', 'advanced' or 'expert'", 'input': 'Intermediate', 'ctx': {'expected': "'beginner', 'intermediate', 'advanced' or 'expert'"}}
+  {'type': 'missing', 'loc': ('response', 1, 'proficiency'), 'msg': 'Field required', 'input': {'_id': '68e65187c707394c507aff3b', 'name': 'Vue 3', 'level': 'Intermediate', 'category': 'Frontend'}}
+  {'type': 'enum', 'loc': ('response', 2, 'category'), 'msg': "Input should be 'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'", 'input': 'Backend', 'ctx': {'expected': "'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'"}}
+  {'type': 'enum', 'loc': ('response', 2, 'level'), 'msg': "Input should be 'beginner', 'intermediate', 'advanced' or 'expert'", 'input': 'Advanced', 'ctx': {'expected': "'beginner', 'intermediate', 'advanced' or 'expert'"}}
+  {'type': 'missing', 'loc': ('response', 2, 'proficiency'), 'msg': 'Field required', 'input': {'_id': '68e65187c707394c507aff3c', 'name': 'FastAPI', 'level': 'Advanced', 'category': 'Backend'}}
+Traceback (most recent call last):
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 409, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anereges\aman_portfolio\backend\venv\Lib\site-packages\fastapi\routing.py", line 252, in serialize_response
+    raise ResponseValidationError(
+fastapi.exceptions.ResponseValidationError: 9 validation errors:
+  {'type': 'enum', 'loc': ('response', 0, 'category'), 'msg': "Input should be 'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'", 'input': 'Backend', 'ctx': {'expected': "'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'"}}
+  {'type': 'enum', 'loc': ('response', 0, 'level'), 'msg': "Input should be 'beginner', 'intermediate', 'advanced' or 'expert'", 'input': 'Expert', 'ctx': {'expected': "'beginner', 'intermediate', 'advanced' or 'expert'"}}
+  {'type': 'missing', 'loc': ('response', 0, 'proficiency'), 'msg': 'Field required', 'input': {'_id': '68e65187c707394c507aff3a', 'name': 'Python', 'level': 'Expert', 'category': 'Backend'}}
+  {'type': 'enum', 'loc': ('response', 1, 'category'), 'msg': "Input should be 'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'", 'input': 'Frontend', 'ctx': {'expected': "'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'"}}
+  {'type': 'enum', 'loc': ('response', 1, 'level'), 'msg': "Input should be 'beginner', 'intermediate', 'advanced' or 'expert'", 'input': 'Intermediate', 'ctx': {'expected': "'beginner', 'intermediate', 'advanced' or 'expert'"}}
+  {'type': 'missing', 'loc': ('response', 1, 'proficiency'), 'msg': 'Field required', 'input': {'_id': '68e65187c707394c507aff3b', 'name': 'Vue 3', 'level': 'Intermediate', 'category': 'Frontend'}}
+  {'type': 'enum', 'loc': ('response', 2, 'category'), 'msg': "Input should be 'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'", 'input': 'Backend', 'ctx': {'expected': "'frontend', 'backend', 'database', 'devops', 'tools' or 'soft_skills'"}}
+  {'type': 'enum', 'loc': ('response', 2, 'level'), 'msg': "Input should be 'beginner', 'intermediate', 'advanced' or 'expert'", 'input': 'Advanced', 'ctx': {'expected': "'beginner', 'intermediate', 'advanced' or 'expert'"}}
+  {'type': 'missing', 'loc': ('response', 2, 'proficiency'), 'msg': 'Field required', 'input': {'_id': '68e65187c707394c507aff3c', 'name': 'FastAPI', 'level': 'Advanced', 'category': 'Backend'}}
+
+2025-10-08 20:36:22,226 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e749b215942b489d40ea6d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-08 20:36:22,276 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68e749b215942b489d40ea6d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-08 20:52:50,975 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-08 20:52:51,102 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-08 20:52:51,103 - portfolio - INFO - 🚀 Application started successfully
+2025-10-08 20:59:42,684 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-08 20:59:42,684 - portfolio - INFO - 🛑 Application shutdown
+2025-10-08 21:00:05,138 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-08 21:00:05,139 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-08 21:00:05,140 - portfolio - INFO - 🚀 Application started successfully
+2025-10-09 02:19:23,379 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-09 02:19:26,545 - portfolio - INFO - 🛑 Application shutdown
+2025-10-09 02:24:09,120 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-09 02:24:09,121 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-09 02:24:09,121 - portfolio - INFO - 🚀 Application started successfully
+2025-10-09 21:22:17,300 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-09 21:22:17,548 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-09 21:22:17,549 - portfolio - INFO - 🚀 Application started successfully
+2025-10-10 00:23:10,581 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-10 00:23:10,604 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-10 00:23:10,605 - portfolio - INFO - 🚀 Application started successfully
+2025-10-11 23:34:14,253 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68eb67e647d9bca17240f480, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-11 23:34:14,448 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68eb67e647d9bca17240f480, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-11 23:35:00,326 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-11 23:35:00,328 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-11 23:35:00,329 - portfolio - INFO - 🚀 Application started successfully
+2025-10-12 02:12:51,181 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-12 02:12:51,213 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-12 02:12:51,215 - portfolio - INFO - 🚀 Application started successfully
+2025-10-12 21:17:41,087 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-12 21:17:41,126 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-12 21:17:41,128 - portfolio - INFO - 🚀 Application started successfully
+2025-10-12 22:26:43,251 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-12 22:26:43,740 - portfolio - INFO - 🛑 Application shutdown
+2025-10-12 22:27:04,265 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-12 22:27:04,266 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-12 22:27:04,267 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 01:22:10,385 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 01:22:10,395 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 01:22:10,396 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 06:22:12,674 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 06:22:12,690 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 06:22:12,691 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 08:33:20,781 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 08:33:21,748 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 08:34:18,521 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 08:34:18,522 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 08:34:18,523 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 08:37:25,352 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 08:37:25,353 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 08:38:05,189 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 08:38:05,194 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 08:38:05,195 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 09:00:17,829 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 09:00:17,845 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 09:00:41,808 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 09:00:41,822 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 09:00:41,824 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 09:01:03,379 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 09:01:03,390 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 09:01:12,374 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 09:01:12,377 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 09:01:12,378 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 10:01:22,156 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 10:01:22,535 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 10:01:48,147 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 10:01:48,149 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 10:01:48,150 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 10:01:55,488 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 10:01:55,488 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 10:01:55,492 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 22:44:33,751 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 22:44:33,959 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 22:46:44,215 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 22:46:44,215 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 22:46:44,216 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 23:14:53,430 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 23:14:54,033 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 23:15:13,981 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 23:15:14,029 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 23:15:14,031 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 23:16:04,657 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 23:16:04,672 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 23:16:58,367 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 23:16:58,371 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 23:16:58,373 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 23:26:56,077 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 23:26:56,079 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 23:31:51,165 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 23:31:51,167 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 23:31:51,167 - portfolio - INFO - 🚀 Application started successfully
+2025-10-14 23:53:09,992 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-14 23:53:10,103 - portfolio - INFO - 🛑 Application shutdown
+2025-10-14 23:53:53,619 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-14 23:53:53,622 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-14 23:53:53,623 - portfolio - INFO - 🚀 Application started successfully
+2025-10-15 03:39:03,520 - app.database.mongodb - ERROR - ❌ Failed to create indexes: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68ef95c432221dda4c34b748, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-15 03:39:03,592 - app.database.mongodb - ERROR - ❌ Failed to connect to MongoDB: localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68ef95c432221dda4c34b748, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27019) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27019: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-10-15 03:39:39,963 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-15 03:39:39,964 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-15 03:39:39,965 - portfolio - INFO - 🚀 Application started successfully
+2025-10-15 04:18:22,776 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-15 04:18:23,893 - portfolio - INFO - 🛑 Application shutdown
+2025-10-15 04:19:18,703 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-15 04:19:18,705 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-15 04:19:18,718 - portfolio - INFO - 🚀 Application started successfully
+2025-10-15 04:19:29,880 - app.database.mongodb - INFO - ✅ Database indexes created successfully
+2025-10-15 04:19:29,881 - app.database.mongodb - INFO - ✅ Connected to MongoDB successfully
+2025-10-15 04:19:29,883 - portfolio - INFO - 🚀 Application started successfully
+2025-10-15 04:24:09,043 - app.database.mongodb - INFO - ✅ MongoDB connection closed
+2025-10-15 04:24:09,136 - portfolio - INFO - 🛑 Application shutdown
