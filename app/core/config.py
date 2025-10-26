@@ -1,4 +1,4 @@
-from pydantic_settings import BaseSettings
+from pydantic import BaseSettings
 from typing import List
 import os
 
@@ -20,8 +20,8 @@ class Settings(BaseSettings):
     ALLOWED_FILE_TYPES: List[str] = ["image/jpeg", "image/png", "image/webp"]
     
     # Admin
-    ADMIN_USERNAME: str = "aman"
-    ADMIN_PASSWORD: str = "aman@123"
+    ADMIN_USERNAME: str = "Mr.hacker"
+    ADMIN_PASSWORD: str = "Mr.hacker@19"
     
     # Email
     EMAIL_HOST: str = "smtp.gmail.com"
@@ -34,13 +34,10 @@ class Settings(BaseSettings):
         env_file = ".env"
         case_sensitive = True
 
-# Create settings instance
 settings = Settings()
 
-# Parse allowed origins from string if loaded from env
 if isinstance(settings.ALLOWED_ORIGINS, str):
     settings.ALLOWED_ORIGINS = [origin.strip() for origin in settings.ALLOWED_ORIGINS.split(",")]
 
-# Parse allowed file types from string if loaded from env
 if isinstance(settings.ALLOWED_FILE_TYPES, str):
     settings.ALLOWED_FILE_TYPES = [ft.strip() for ft in settings.ALLOWED_FILE_TYPES.split(",")]
