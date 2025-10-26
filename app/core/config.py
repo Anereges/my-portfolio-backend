@@ -1,6 +1,5 @@
 from pydantic import BaseSettings
 from typing import List
-import os
 
 class Settings(BaseSettings):
     # MongoDB
@@ -34,10 +33,13 @@ class Settings(BaseSettings):
         env_file = ".env"
         case_sensitive = True
 
+# Create settings instance
 settings = Settings()
 
+# Parse allowed origins from string if loaded from env
 if isinstance(settings.ALLOWED_ORIGINS, str):
     settings.ALLOWED_ORIGINS = [origin.strip() for origin in settings.ALLOWED_ORIGINS.split(",")]
 
+# Parse allowed file types from string if loaded from env
 if isinstance(settings.ALLOWED_FILE_TYPES, str):
     settings.ALLOWED_FILE_TYPES = [ft.strip() for ft in settings.ALLOWED_FILE_TYPES.split(",")]
