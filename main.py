@@ -117,7 +117,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",  # React dev
         "http://127.0.0.1:5173",  # Vue + Vite dev
-        "https://yourdomain.com",  # Prod frontend
+        "https://portfolio-frontend-liard-eight.vercel.app",  # Prod frontend
     ],
     allow_credentials=True,
     allow_methods=["*"],
