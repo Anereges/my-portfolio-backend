@@ -13,13 +13,12 @@ mongodb = MongoDB()
 
 async def connect_to_mongo():
     try:
-        mongodb.client = AsyncIOMotorClient(
-            settings.MONGODB_URL,
-            maxPoolSize=100,
-            minPoolSize=10,
-            retryWrites=True
-        )
+        # SIMPLE CONNECTION - NO TLS, NO CERTIFI
+        mongodb.client = AsyncIOMotorClient(settings.MONGODB_URL)
         mongodb.database = mongodb.client[settings.MONGODB_DB_NAME]
+        
+        # Test connection
+        await mongodb.client.admin.command('ping')
         
         # Create indexes
         await create_indexes()
