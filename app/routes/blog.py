@@ -8,6 +8,7 @@ from app.models.blog import BlogPostCreate, BlogPostUpdate, BlogPostResponse, Bl
 from app.database.mongodb import get_collection
 from app.utils.file_upload import save_upload_file
 from app.schemas.response import StandardResponse, PaginatedResponse
+from app.services.cloudinary_service import cloudinary_service  # ADD THIS IMPORT
 
 router = APIRouter()
 
@@ -153,10 +154,22 @@ async def create_blog_post(
         slug = f"{base_slug}-{counter}"
         counter += 1
     
-    # Handle featured image upload
+    # Handle featured image upload - UPDATED TO USE CLOUDINARY
     image_url = None
-    if featured_image:
-        image_url = await save_upload_file(featured_image, "blog_images")
+    if featured_image and featured_image.filename:
+        try:
+            print(f"📸 Uploading blog image to Cloudinary: {featured_image.filename}")
+            image_url = await cloudinary_service.upload_blog_image(featured_image)
+            print(f"✅ Blog image uploaded to Cloudinary: {image_url}")
+        except Exception as e:
+            print(f"❌ Cloudinary upload failed: {str(e)}")
+            # Fallback to local storage if Cloudinary fails
+            try:
+                image_url = await save_upload_file(featured_image, "blog_images")
+                print(f"📁 Using local storage fallback: {image_url}")
+            except Exception as fallback_error:
+                print(f"❌ Local storage also failed: {str(fallback_error)}")
+                raise HTTPException(status_code=500, detail="Image upload failed")
     
     # Process tags
     tag_list = [tag.strip() for tag in tags.split(",") if tag.strip()]
@@ -250,10 +263,23 @@ async def update_blog_post(
     if meta_description is not None:
         update_data["meta_description"] = meta_description
     
-    # Handle featured image upload
-    if featured_image:
-        image_url = await save_upload_file(featured_image, "blog_images")
-        update_data["featured_image"] = image_url
+    # Handle featured image upload - UPDATED TO USE CLOUDINARY
+    if featured_image and featured_image.filename:
+        try:
+            print(f"📸 Uploading updated blog image to Cloudinary: {featured_image.filename}")
+            image_url = await cloudinary_service.upload_blog_image(featured_image)
+            print(f"✅ Updated blog image uploaded to Cloudinary: {image_url}")
+            update_data["featured_image"] = image_url
+        except Exception as e:
+            print(f"❌ Cloudinary upload failed: {str(e)}")
+            # Fallback to local storage
+            try:
+                image_url = await save_upload_file(featured_image, "blog_images")
+                update_data["featured_image"] = image_url
+                print(f"📁 Using local storage fallback: {image_url}")
+            except Exception as fallback_error:
+                print(f"❌ Local storage also failed: {str(fallback_error)}")
+                raise HTTPException(status_code=500, detail="Image upload failed")
     
     update_data["updated_at"] = datetime.utcnow()
     
@@ -276,6 +302,9 @@ async def delete_blog_post(post_id: str):
     
     if not ObjectId.is_valid(post_id):
         raise HTTPException(400, "Invalid post ID")
+    
+    # Optional: Delete image from Cloudinary when post is deleted
+    # You can implement this later if needed
     
     result = await collection.delete_one({"_id": ObjectId(post_id)})
     
@@ -316,6 +345,30 @@ async def get_blog_stats():
         "total_views": total_views,
         "total_likes": total_likes
     }
+
+# Cloudinary test endpoint
+@router.post("/blog/test-upload")
+async def test_blog_image_upload(featured_image: UploadFile = File(...)):
+    """Test Cloudinary upload for blog images"""
+    try:
+        if not featured_image.filename:
+            return {"success": False, "error": "No file provided"}
+        
+        image_url = await cloudinary_service.upload_blog_image(featured_image)
+        
+        return {
+            "success": True,
+            "message": "✅ Blog image upload successful!",
+            "data": {
+                "image_url": image_url,
+                "filename": featured_image.filename
+            }
+        }
+    except Exception as e:
+        return {
+            "success": False,
+            "error": str(e)
+        }
 
 # Debug endpoint to see all posts (remove in production)
 @router.get("/blog/debug/posts")

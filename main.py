@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, HTTPException, status
+from fastapi import FastAPI, Depends, HTTPException, status, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import JSONResponse, FileResponse
@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from app.database.mongodb import connect_to_mongo, close_mongo_connection
 from app.routes import projects, skills, contacts, admin, blog
 from app.utils.logger import setup_logger
+from app.services.cloudinary_service import cloudinary_service  # ADD THIS IMPORT
 
 # 🧠 Setup logger
 logger = setup_logger()
@@ -154,6 +155,47 @@ async def health_check():
         "status": "healthy",
         "message": "Portfolio API is running smoothly",
         "version": "1.0.0"
+    }
+
+# 🚀 CLOUDINARY TEST ENDPOINTS - ADD THESE
+@app.post("/api/v1/test-cloudinary")
+async def test_cloudinary_upload(image: UploadFile = File(...)):
+    """Test Cloudinary integration"""
+    try:
+        if not image.filename:
+            return {"success": False, "error": "No file provided"}
+        
+        image_url = await cloudinary_service.upload_blog_image(image)
+        
+        return {
+            "success": True,
+            "message": "✅ Cloudinary upload successful!",
+            "data": {
+                "image_url": image_url,
+                "filename": image.filename,
+                "cloud_name": os.getenv('CLOUDINARY_CLOUD_NAME', 'Not set')
+            }
+        }
+    except Exception as e:
+        logger.error(f"Cloudinary test upload failed: {str(e)}")
+        return {
+            "success": False,
+            "error": str(e)
+        }
+
+@app.get("/api/v1/check-cloudinary")
+async def check_cloudinary_config():
+    """Check if Cloudinary is properly configured"""
+    cloud_name = os.getenv('CLOUDINARY_CLOUD_NAME')
+    api_key = os.getenv('CLOUDINARY_API_KEY')
+    api_secret_set = bool(os.getenv('CLOUDINARY_API_SECRET'))
+    
+    return {
+        "cloud_name": cloud_name,
+        "api_key": api_key,
+        "api_secret_set": api_secret_set,
+        "status": "✅ Configured" if cloud_name and api_key and api_secret_set else "❌ Not Configured",
+        "message": "Cloudinary is ready for image uploads" if cloud_name and api_key and api_secret_set else "Missing environment variables"
     }
 
 # 🚨 Global Exception Handler
